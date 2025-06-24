@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/david93a/Geopolitica.git
+RUN git clone https://github.com/david93a/Geopolitica
 
 # Copy the local config.json file to the container
 
